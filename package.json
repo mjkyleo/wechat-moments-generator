@@ -1,0 +1,35 @@
+{
+  "name": "wechat-moments-generator",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "remotion": "remotion",
+    "studio": "remotion studio",
+    "render-video": "remotion render MomentsScroll out/moment-scroll.mp4"
+  },
+  "dependencies": {
+    "@remotion/player": "4.0.538",
+    "html-to-image": "^1.11.13",
+    "lucide-react": "^0.545.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "remotion": "4.0.538",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.538",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.10",
+    "terser": "^5.51.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0"
+  }
+}

@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 构建产物与渲染输出
+out/
+.remotion/
+
+# Qoder Sites 本地站点描述文件（发布恢复状态，随每次发布变化）
+*.qoder.site
+
+# 环境变量与本地凭据
+.env
+.env.*
